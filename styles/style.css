@@ -1,3 +1,5 @@
+/* All Pages */
+
 body {
     background-color: #e5e5e5;
     color: #000000
@@ -19,6 +21,31 @@ p {
 
 a {
     color: #fff;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #14213d;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#find-me {
+    color: #fca311;
+}
+
+#social-links {
+    color: #fff;
+}
+
+#social-hr {
+    background-color: #fff;
+    height: 1px;
+    width: 20%;
 }
 
 /* Navbar - All Pages */
@@ -73,35 +100,17 @@ a {
     margin-right: 30px;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #14213d;
-    text-align: center;
-}
-
-#find-me {
-    color: #fca311;
-}
-
-#social-links {
-    color: #fff;
-}
-
-#social-hr {
-    background-color: #fff;
-    height: 1px;
-    width: 20%;
-}
-
 /* Portfolio Page */
 
 .portfolio {
-    height: 350px;
+    width: 60%;
+    margin: 50px auto 100px auto;
+}
+
+.col-md-6 {
     width: 350px;
+    height: 350px;
+    margin: 50px 0px 50px 0px;
 }
 
 /* Contact Me Page */
